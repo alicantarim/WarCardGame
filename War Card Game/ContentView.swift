@@ -85,23 +85,24 @@ struct ContentView: View {
     
     func deal() {
         // Randomize the players card
-        var playerCardValue = String(Int.random(in: 2...14))
+        var playerCardValue = Int.random(in: 2...14)
         playerCard = "card" + String(playerCardValue)
         
         // Randomize the cpus card
-        var cpuCardValue = String(Int.random(in: 2...14))
+        var cpuCardValue = Int.random(in: 2...14)
         cpuCard = "card" + String(cpuCardValue)
         
         // Update the scores
         if playerCardValue > cpuCardValue {
             // Add 1 to player score
+            print("\(playerCardValue) - \(cpuCardValue)")
             playerScore += 1
         } else if cpuCardValue > playerCardValue {
             // Add 1 to cpu score
+            print("\(playerCardValue) - \(cpuCardValue)")
             cpuScore += 1
         }
     }
-    
 }
 
 #Preview {
