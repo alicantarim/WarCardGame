@@ -4,3 +4,5 @@
 <li>Button,Text,Image UI Elements.</li>
 <li>Variables, and functions</li>
 </ul>
+
+#imageLiteral(resourceName: "WarCardGame.png")
