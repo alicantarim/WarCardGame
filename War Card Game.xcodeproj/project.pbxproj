@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEB42D3A2CD0C57A008B26DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BEB42D382CD0C571008B26DE /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		BEB42D382CD0C571008B26DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEF1CEFC2CD04386008B7A78 /* War Card Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Card Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		BEF1CEF32CD04386008B7A78 = {
 			isa = PBXGroup;
 			children = (
+				BEB42D382CD0C571008B26DE /* README.md */,
 				BEF1CEFE2CD04386008B7A78 /* War Card Game */,
 				BEF1CEFD2CD04386008B7A78 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB42D3A2CD0C57A008B26DE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
