@@ -1,10 +1,3 @@
-//
-//  README.md
-//  War Card Game
-//
-//  Created by Alican TARIM on 29.10.2024.
-//
-
 ## This is the first application of the CodeWithChris training.
 
 <ul>
